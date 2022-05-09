@@ -12,16 +12,16 @@
     margin-left: auto;
     margin-right: auto;
     align-self: center;
+    font-size: 25px;
 }
 
 .boardBlock {
     position: absolute;
     display: flex;
+    left: calc(50% - 800px / 2);
     width: 800px;
     height: 300px;
     top: 300px;
-    margin-right: auto;
-    margin-left: auto;
     justify-content: space-between;
     flex-direction: column;
 }
@@ -37,12 +37,28 @@
 }
 
 .keys {
-  position: relative;
-  width: 40px;
-    height: 40px;
+    position: relative;
+    display: flex;
+    width: 50px;
+    height: 50px;
     border-style: solid;
     border-color: black;
     align-self: center;
+    border-width: 1px;
+    border-radius: 3px;
+    justify-self: center;
+    align-content: center;
+    text-align: center;
+    /*flex-grow: 1;*/
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    user-select: none;
+}
+
+.keys:hover {
+    border-color: green;
+    cursor: pointer;
 }
 
 .key {
