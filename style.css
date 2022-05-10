@@ -57,8 +57,10 @@
 }
 
 .keys:hover {
-    border-color: green;
+    border-color: red;
     cursor: pointer;
+    box-sizing: border-box;
+    border-width: 2px;
 }
 
 .key {
